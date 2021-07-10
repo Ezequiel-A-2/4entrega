@@ -14,3 +14,5 @@ package.json
 *.rar
 *.sql
 
+node_modules/
+
