@@ -1,0 +1,130 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.altura-a-b{
+	padding: 100px 0;
+}
+.fondo-home{
+	width: 100%;
+	height: margin 0 auto;
+}
+
+.icono-redes-header{
+	width: 20px;
+	margin: 10px 5px;
+	box-sizing: content-box;
+}
+
+.banner-video{
+	background-image: url("../media/svg/video-bg.jpg");
+	padding: 200px 0;
+	position: relative;
+	text-align: center;
+
+}
+.titulo-sitios h3{
+	padding-top: 35px;
+}
+
+.sps--abv{
+	background-color: transparent;
+	color: black; 
+	color: rgba(9, 8, 8, 0.89);
+}
+.sps--blw{
+	background-color: #2b2b2b;
+	color: #fff;
+}
+.carousel-caption {
+    position: absolute;
+    top: 40%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+.abajoIcono{
+	margin-top: 1px; 
+}
+.banner-video img{
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+.banner-somos{
+	background-image: url("../media/fondo/somos-equipo.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 200px 0;
+	text-align: center;
+}
+.cabecera-somos{
+	padding: 150px 0 100px 0;
+	background-image: url("../media/fondo/fondosobremi.jpg");
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+
+}
+.cabecera-galeria{
+	padding: 150px 0 100px 0;
+	background-image: url("../media/fondo/fondogaleria.jpg");
+	background-position: center center;
+	background-size: cover;
+	position: relative;
+}
+
+.btn-light{
+	color: #ffffff;
+	background-color: transparent;
+	border-color: #f8f9fa;
+	border-radius: solid #fff;
+	border-radius:20px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.somos{
+	text-align: center;
+	height:10px;
+	
+	padding: 15px;
+    height: 10px;
+}
+.somos-parrafo{
+	padding: 50px;
+
+}
+.texto-blanco{
+	color: white;
+	text-align: center; 
+}
+.texto{
+	color: white;
+}
+.mejores{
+	text-align: center;
+}
+
+footer{
+	background-color: black;
+	padding: 100px 0; 
+	text-align: center;
+
+}
+
+footer p{
+	color: white;
+	font-size: 12px;
+}
+
+@media (max-width: 768px) {
+	.fondo-home {
+	  height: 450px;
+	}
+  }
+

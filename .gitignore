@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+
+# Others
+package-lock.json
+package.json
+
+# =========================
+# Operating System Files
+# =========================
+
+*.zip
+*.rar
+*.sql
+
