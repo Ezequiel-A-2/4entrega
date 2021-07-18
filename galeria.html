@@ -50,84 +50,51 @@
 				 </section>
 				 <div>
 					  <h3 class="mejores">Las Mejores fotos del Mes</h3>
-				  </div>
-				 <section class="altura-a-b">
-				  <div class="container"></div>
-				  <div class="row">
-				   
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje6.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje3.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje4.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje5.jpg" alt="wi">
-					  </div>
+			     </div>
+				
+			 
+					<div class="container" id="pic">
+						<div class="card-columns">
+							<div class="card">
+								<a href="#" data-toggle="modal" data-target="#exampleModal">
+								<img src="media/somos/paisaje1.1.jpg" alt="" class="card-img-top">
+							</div>
+						</div>
+					</div>
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<class class="modal-dialog modal-md modal-dialog-centered">
+							<img src="media/somos/paisaje1.1.jpg" alt="" class="img-fluid rounded">
+					</div>
+					<script>
+						var imageness = [1,2,3,4,5,6,7,8,9] 
+						var pic = document.getElementById('pic');
+						for(fotos of imageness){
+							pic.innerHTML += `
+									<div class="card">
+										<a href="#" data-toggle="modal" data-target="#exampleModal">
+										<img src="media/somos/paisaje1.1.jpg" alt="" class="card-img-top">
+									</div>
+								</div>
+							</div>
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								<button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								<class class="modal-dialog modal-md modal-dialog-centered">
+									<img src="media/somos/paisaje1.1.jpg" alt="" class="img-fluid rounded">
+			                	`
+						}
+					</script>
 					</div>
 				  </div>
 				 </section>
-					 <section class="altura-a-b">
-				  <div class="container"></div>
-				  <div class="row">
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje6.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje3.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje4.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje5.jpg" alt="wi">
-					  </div>
-					</div>    
-				  </div>
-				 </section>
-					 <section class="altura-a-b">
-				  <div class="container"></div>
-				  <div class="row">
-				   
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje6.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje3.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje4.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje5.jpg" alt="wi">
-					  </div>
-					</div>    
-				  </div>
-				 </section>
-					 <section class="altura-a-b">
-				  <div class="container"></div>
-				  <div class="row">
-				   
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje6.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid" src="media/somos/paisaje3.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje4.jpg" alt="wi">
-					  </div>
-					  <div class="col-12 col-sm-3">
-						  <img class="img-fluid"src="media/somos/paisaje5.jpg" alt="wi">
-					  </div>
-					</div>    
-				  </div>
-				 </section>
 				 <section class="banner-somos altura-a-b">
-				  <div class="container">
+				  <div class="container1">
 					  <div class="row">
 						  <div class= "col-12">
 							  <h2 class="texto-blanco">Nosotros, el mejor equipo de Turismo!</h2>
