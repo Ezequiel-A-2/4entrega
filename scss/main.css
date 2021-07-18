@@ -31,6 +31,17 @@ body {
   text-align: center;
 }
 
+footer {
+  background-color: black;
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer footer p {
+  color: white;
+  font-size: 12px;
+}
+
 .texto {
   color: white;
 }
