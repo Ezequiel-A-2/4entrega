@@ -55,16 +55,22 @@ body{
 	width: 80px;
 	height: 80px;
 	position: relative;
-	background-repeat:no-repeat
 	
 
 }
 .banner-somos{
-	background-image: url("../media/fondo/somos-equipo.jpg");
+	background-image: url("../media/fondo/fondofootersomos.jpg");
 	background-position: center;
 	background-size: cover;
 	padding: 200px 0;
 	text-align: center;
+}
+.cabecera-contacto{
+	padding: 150px 0 100px 0;
+	background-image: url("../media/fondo/fondopricipal4.jpg");
+	background-position: center center;
+	background-size: cover;
+	position: relative;
 }
 .cabecera-somos{
 	padding: 150px 0 100px 0;
@@ -81,7 +87,10 @@ body{
 	background-size: cover;
 	position: relative;
 }
-
+.bg{
+	background-image: url("../media/fondo/registrocontacto.jpg");
+	background-position: center center;
+}
 .btn-light{
 	color: #ffffff;
 	background-color: transparent;
@@ -90,6 +99,12 @@ body{
 	border-radius:20px;
 	padding-left: 25px;
 	padding-right: 25px;
+}
+.item{
+	transition: .5s ease-in-out;
+}
+.item:hover{
+	filter: brightness(80%);
 }
 .somos{
 	text-align: center;

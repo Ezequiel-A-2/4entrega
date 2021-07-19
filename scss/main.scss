@@ -3,7 +3,11 @@ body{
 }
 
 
-
+.icono-redes-header{
+	width: 20px;
+	margin: 10px 5px;
+	box-sizing: content-box;
+}
 
 
 .sps--abv{
@@ -20,7 +24,10 @@ body{
 .titulo-sitios h3{
 	padding-top: 35px;
 }
-
+.bg{
+	background-color: url("../media/somos/1.jpg");
+	background-position: center center;
+}
 .banner-video img{
 	width: 80px;
 	height: 80px;
