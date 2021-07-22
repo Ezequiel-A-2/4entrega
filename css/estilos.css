@@ -128,7 +128,9 @@ body{
 	text-align: center;
 	padding: 30px;
 }
-
+.container-fluid{
+	max-width: 80%;
+}
 .gallery-container {
 	display: grid;
 	grid-template-columns: repeat(3, ifr);
@@ -156,9 +158,10 @@ footer p{
 	font-size: 12px;
 }
 
-@media (max-width: 768px) {
-	.fondo-home {
+@media (min-width: 768px) {
+	.carousel-caption {
 	  height: 450px;
 	}
   }
+
 
