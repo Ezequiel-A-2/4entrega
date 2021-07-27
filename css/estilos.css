@@ -2,15 +2,108 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+.header{
+	background-image:  url("../media/fondo/bg-header.jpg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
 
+}
+.img-logo{
+	width: 40px;
+}
+.header::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.linear-white::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 10px;
+	background-color:white;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+
+}
+
+.vh-50{
+	height: 50vmin;
+}
+.card-img-filter{
+	filter: brightness(0.5);
+}
+.card {
+	transition-duration: .6s;
+	clip-path: polygon(
+		50% 0,
+		100% 0,
+		100% 50%,
+		100% 100%,
+		50% 100%,
+		0 100%,
+		0 50%,
+		0 0
+	);
+}
+.card-effect:hover .card {
+	clip-path: polygon(
+		50% 0,
+		50% 0,
+		100% 50%,
+		100% 50%,
+		50% 100%,
+		50% 100%,
+		0 50%,
+		0 50%
+	);
+}
+.card-img-overlay{
+	transition-duration: 0.6s;
+}
+
+.card-effect:hover .card-img-overlay{
+	transform: scale(0.9);
+
+}
+.comments{
+	background-image: url("../media/fondo/bg-clients.jpeg");
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.comments.linear-white::after{
+	top: 0;
+}
+.commets__img{
+	--tamaño: 80px;
+	width: var(--tamaño);
+	height:var(--tamaño);
+	object-fit:cover ;
+	border-radius: 50%;
+	box-shadow: 7px 7px 7px rgba(0 0 0 / 0.5);
+	border: 3px ridge white;
+}
+.transform-turn{
+	transform: rotate(.5turn);
+}
+.texto-s{
+	padding: 40px;
+}
 .altura-a-b{
-	padding: 100px 0;
+	padding: 70px 0;
 }
 .fondo-home{
 	width: 100%;
 	height: margin 0 auto;
 }
-
 .icono-redes-header{
 	width: 20px;
 	margin: 10px 5px;
@@ -80,13 +173,6 @@ body{
 	position: relative;
 
 }
-.cabecera-galeria{
-	padding: 150px 0 100px 0;
-	background-image: url("../media/fondo/fondogaleria.jpg");
-	background-position: center center;
-	background-size: cover;
-	position: relative;
-}
 .bg{
 	background-image: url("../media/fondo/registrocontacto.jpg");
 	background-position: center center;
@@ -128,8 +214,12 @@ body{
 	text-align: center;
 	padding: 30px;
 }
-.container-fluid{
-	max-width: 80%;
+.img-fluid{
+	max-width: 100%;
+	height: auto;
+	margin: 30px;
+	display: block;
+
 }
 .gallery-container {
 	display: grid;
@@ -146,22 +236,23 @@ body{
 	object-fit:cover ;
 
 }
-footer{
-	background-color: black;
-	padding: 100px 0; 
-	text-align: center;
 
+
+
+@media screen and  (max-width: 375px){
+	.vh-50{
+		height: 50vmax;
+	}
+}
+@media screen and  (max-width: 450px){
+	.vh-50{
+		height: 55vmax;
+	}
 }
 
-footer p{
-	color: white;
-	font-size: 12px;
-}
 
 @media (min-width: 768px) {
 	.carousel-caption {
 	  height: 450px;
 	}
   }
-
-
